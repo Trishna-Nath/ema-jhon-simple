@@ -22,7 +22,7 @@ const Cart = (props) => {
             <p>Selected items: {cart.length}</p>
             <p>Total Price:${total}</p>
             <p>Total Shipping:${totalShipping}</p>
-            <p>Tax:${tax}</p>
+            <p>Tax:${tax.toFixed(2)}</p>
             <h6>Garnd Total:${grandTotal.toFixed(2)}</h6>
         </div>
     );
