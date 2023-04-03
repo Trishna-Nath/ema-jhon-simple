@@ -17,3 +17,9 @@ nav.header a{
 nav.header a:hover{
     color: orange;
 }
+
+.image{
+    height: 50px;
+    width: 200px;
+    background-color: aliceblue;
+}
